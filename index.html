@@ -519,6 +519,36 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe-footer-wrapper">
+          <form class="subscribe-form">
+            <div class="subscribe-form-field-wrapper">
+              <p class="subscribe-text">Subscribe</p>
+              <label
+                class="subscribe-form-field-label"
+                for="subscribe-mail"
+              ></label>
+              <input
+                class="subscribe-form-input"
+                id="subscribe-mail"
+                name="subscribe-mail"
+                type="email"
+                placeholder="E-mail"
+                required
+              />
+            </div>
+          </form>
+          <button class="subscribe-btn" type="submit">
+            Subscribe
+            <svg
+              class="subscribe-btn-icon"
+              width="24px"
+              height="24px"
+              aria-label="subscribe-icon"
+            >
+              <use href="./images/icons.svg#icon-icon-send"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-open">
@@ -629,14 +659,13 @@
             <label
               class="contact-form-checkbox-label"
               for="user-privacy-policy"
-              name="user-privacy-policy"
             >
               <span class="contact-form-own-checkbox">
                 <svg
                   class="contact-form-own-checkbox-icon"
                   width="10"
                   height="8"
-                  arua-label="checkmark icon"
+                  aria-label="checkmark icon"
                 >
                   <use href="./images/icons.svg#icon-Vector"></use>
                 </svg>
